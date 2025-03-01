@@ -1,7 +1,7 @@
 # Caries Detection Dataset（CDD）
-Our paper "Dual-Attention YOLOv5: A Deep Learning Framework for High-Precision Detection of Pediatric Dental Caries in Clinical Imagery" is under review, and we decide to public our dataset in advance. 
+Our paper <strong>"Dual-Attention YOLOv5: A Deep Learning Framework for High-Precision Detection of Pediatric Dental Caries in Clinical Imagery" </strong>is under review, and we decide to public our dataset in advance. 
 
-I. Introduction
+<h3 style="font-weight: bold; font-size: 1.2em; color: #000;">I. Introduction</h3>
 The caries detection dataset is a dataset of about 2000 images, all of which were taken by smartphones or other electronic devices with camera functions. The images were taken from different angles, such as those taken with professional oral instruments and at standard angles, or those taken in an environment without professional oral instruments.We use horizontal bounding boxes (xmin,ymin,xmax,ymax) to annotate caries and non-caries.The annotations follows the VOC format with .xml files.
 We split the dataset into training set, validation set, and test set according to the ratio of 8:1:1. The detailed statistics of the dataset division are listed in Table 1.
 
@@ -37,10 +37,10 @@ Caries 2 shows the effect of some environmental noise in the picture taken by th
 </div>
 Caries. 3 Compared with Caries. 1, it is shown that different dental hospitals may use different instruments and angles to collect standard dental caries images by themselves, and all such maps are trained with models to improve the generalization ability of the models for caries detection.
 
-II. Annotations
+<h3 style="font-weight: bold; font-size: 1.2em; color: #000;">II. Annotations</h3>
 We use horizontal bounding boxes (xmin,ymin,xmax,ymax) to annotate caries and non-caries.The annotations follows the VOC format with .xml files.
 
-III. How to obtain
+<h3 style="font-weight: bold; font-size: 1.2em; color: #000;">III. How to obtain</h3>
 A subset of the CDD dataset is provided in this repository for demonstration purposes only. The full clinical caries dataset cannot be publicly released due to patient privacy protections under China's Personal Information Protection Law (PIPL) and ethical restrictions involving human subject data. Researchers requiring access to the complete dataset must obtain approval through the following steps:
 
 Submit a formal data request to the corresponding authors (contact: houchao@sspu.edu.cn)
