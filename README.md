@@ -1,9 +1,18 @@
 # Caries Detection Dataset（CDD）
-Our paper <strong>"Dual-Attention YOLOv5: A Deep Learning Framework for High-Precision Detection of Pediatric Dental Caries in Clinical Imagery" </strong>is under review, and we decide to public our dataset in advance. 
+Our paper <strong>"Evaluation of dental caries using a deeplearning-based artificial intelligence algorithm" </strong>is under review, and we decide to public our dataset in advance. 
 
 <h3 style="font-weight: bold; font-size: 1.2em; color: #000;">I. Introduction</h3>
-The caries detection dataset is a dataset of about 2000 images, all of which were taken by smartphones or other electronic devices with camera functions. The images were taken from different angles, such as those taken with professional oral instruments and at standard angles, or those taken in an environment without professional oral instruments.We use horizontal bounding boxes (xmin,ymin,xmax,ymax) to annotate caries and non-caries.The annotations follows the VOC format with .xml files.
-We split the dataset into training set, validation set, and test set according to the ratio of 8:1:1. The detailed statistics of the dataset division are listed in Table 1.
+The caries detection dataset was constructed by collecting approximately 5,000 images from community health centers and hospital settings, captured using smartphones and various camera-equipped electronic devices. After rigorous quality screening and curation, we selected 1,241 qualified images for annotation. These images exhibit diverse capture conditions, including both professionally assisted shots using oral instruments and non-professional captures taken at standard angles without specialized equipment. All annotations follow the PASCAL VOC format with XML files, using horizontal bounding boxes (xmin, ymin, xmax, ymax) to label both caries and non-caries regions.
+
+The dataset was partitioned into training, validation, and test sets following an 8:1:1 ratio allocation:
+
+Training set: 993 images (80%)
+
+Validation set: 124 images (10%)
+
+Test set: 124 images (10%)
+
+This stratified split ensures consistent distribution of different capture conditions and annotation categories across all subsets while maintaining complete separation between the sets.
 
 <div align="center">
 
@@ -11,7 +20,7 @@ We split the dataset into training set, validation set, and test set according t
 
 | type          | Train | Validation | Test | Total |
 |---------------|-------|------------|------|-------|
-| Image Number  | 1600  | 200        | 200  | 2000  |
+| Image Number  | 993  | 124        | 124  | 1241  |
 
 </div>
 
