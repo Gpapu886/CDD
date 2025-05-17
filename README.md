@@ -1,5 +1,5 @@
 # Caries Detection Dataset（CDD）
-Our paper <strong>"Intelligent Diagnosis of Dental Caries in Preschool Children using a Deeplearning Framework" </strong>is under review, and we decide to public our dataset in advance. 
+Our paper is under review, and we decide to public our dataset in advance. 
 
 <h3 style="font-weight: bold; font-size: 1.2em; color: #000;">I. Introduction</h3>
 The caries detection dataset was constructed by collecting approximately 5,000 images from community health centers and hospital settings, captured using smartphones and various camera-equipped electronic devices. After rigorous quality screening and curation, we selected 1,241 qualified images for annotation. These images exhibit diverse capture conditions, including both professionally assisted shots using oral instruments and non-professional captures taken at standard angles without specialized equipment. All annotations follow the coco format with XML files, using horizontal bounding boxes (xmin, ymin, xmax, ymax) to label both caries and non-caries regions.
